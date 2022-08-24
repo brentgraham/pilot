@@ -6,5 +6,3 @@ WORKDIR $APP_HOME
 
 RUN go get -d -v ./...
 RUN go build
-
-testing
